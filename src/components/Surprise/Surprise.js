@@ -1,9 +1,11 @@
 import React from 'react'
+import Particles from 'react-particles-js'
 import harry1 from './harry1.jpg'
 import harry2 from './harry2.jpg'
 import harry3 from './harry3.jpg'
 import harry4 from './harry4.jpg'
 import './Surprise.css'
+import harrysound from './harrysound.mp3'
 function Surprise() {
     return (
         <div>
@@ -18,8 +20,11 @@ function Surprise() {
                     En avant pour le musée Harry Potter à Londres !!!
                     On part quand tu veux !
                 </h1>
-
             </div>
+            <audio src={harrysound} controls autoPlay></audio>
+            <script>
+                document.getElementById('vid').play();
+</script>
         </div >
     )
 }
