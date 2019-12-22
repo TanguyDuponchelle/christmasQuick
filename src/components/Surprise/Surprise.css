@@ -1,8 +1,6 @@
 .surprise__maindiv {
+display: flex;
 flex-direction: row;
-justify-items: center;
-justify-content: center;
-margin: 0 auto;
 }
 
 img {
@@ -13,10 +11,7 @@ img {
     background-color: gray;
 }
 .surprise__text {
-    transform: translateY(-65vh);
-    display: absolute;
+    text-align: center;
     color: white;
     z-index: 1;
-    opacity: 100%;
-    background-color: grey;
 }

@@ -21,10 +21,10 @@ function Surprise() {
                     On part quand tu veux !
                 </h1>
             </div>
-            <audio src={harrysound} controls autoPlay></audio>
+            <audio src={harrysound} autoPlay controls></audio>
             <script>
                 document.getElementById('vid').play();
-</script>
+            </script>
         </div >
     )
 }
