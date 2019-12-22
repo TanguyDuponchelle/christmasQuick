@@ -1,0 +1,22 @@
+.surprise__maindiv {
+flex-direction: row;
+justify-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+
+img {
+    width: 500px;
+    height: 380px;
+}
+.surprise__text-bg{
+    background-color: gray;
+}
+.surprise__text {
+    transform: translateY(-65vh);
+    display: absolute;
+    color: white;
+    z-index: 1;
+    opacity: 100%;
+    background-color: grey;
+}
